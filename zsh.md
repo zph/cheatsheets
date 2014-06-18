@@ -10,6 +10,7 @@ layout: default
     !*                 Last command's parameters (vim !*)
     !^                 Last command's first parameter
     !$                 Last command's last parameter
+    !:N                Where N is an integer. Nth parameter from prior command
 
     !?ls<tab>          Command and params of last `ls` command (sudo !?mv<tab>)
     !?ls?:*<tab>       Params of last `ls` command
